@@ -162,7 +162,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = forwarded_msg.message_id
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MRK_YT_{file_er_id}"
+            share_link = f"https://telegram.me/share/url?url=https://t.me/{Config.BOT_USERNAME}?start=JNS_BOTS_{file_er_id}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Stored Link", url=share_link)]]))
@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/jns_fc_bots).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
