@@ -114,7 +114,7 @@ async def main(bot: Client, message: Message):
             await forwarded_msg.reply_text(
                 f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
                 parse_mode="Markdown", disable_web_page_preview=True)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=JNS_BOTS_{file_er_id}"
+            share_link = f"https://telegram.me/share/url?url=https://t.me/{Config.BOT_USERNAME}?start=JNS_BOTS_{file_id}"
             await editable.edit(
                 f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: https://t.me/{Config.BOT_USERNAME}?start=JNS_BOTS_{file_er_id} \n\nJust Click the link to get your file! \n **Share to friends** ⬇️",
                 parse_mode="Markdown",
