@@ -1,4 +1,4 @@
-# (c) @MRK_YT
+# (c) @jnsbot (git)
 
 import os
 import asyncio
@@ -49,11 +49,11 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/jns_fc_bots"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/jns_bots")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("💾 MOVIES 💾", url="https://t.me/FCfilmcornerfc")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -102,7 +102,7 @@ async def main(bot: Client, message: Message):
             else:
                 pass
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/Mo_Tech_Group)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/jns_fc_bots)",
                                      disable_web_page_preview=True)
             return
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -120,8 +120,8 @@ async def main(bot: Client, message: Message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("♻️Open Link♻️", url=share_link)],
-                     [InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_Yt"),
-                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/Mo_Tech_Group")]]
+                     [InlineKeyboardButton("🔊Channel", url="https://t.me/jns_bots"),
+                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/jns_fc_bots")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -304,8 +304,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                        InlineKeyboardButton("MOVIES",
+                                             url="https://t.me/FCfilmcornerfc")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -322,8 +322,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                        InlineKeyboardButton("MOVIES",
+                                             url="https://t.me/FCfilmcornerfc")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -340,11 +340,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/jns_fc_bots"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/jns_bots")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("💾Movies💾", url="https://t.me/FCfilmcornerfc")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -383,7 +383,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/jns_fc_bots).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -395,11 +395,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/jns_fc_bots"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/jns_bots")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("💾 MOVIES💾", url="https://t.me/FCfilmcornerfc")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
