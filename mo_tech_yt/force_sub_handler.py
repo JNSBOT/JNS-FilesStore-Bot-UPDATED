@@ -20,7 +20,7 @@ async def handle_force_sub(bot, cmd):
     except UserNotParticipant:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Channel to use this Bot! ⚠️**\n\n**Files വേണക്കിൽ അത്യം ഞങ്ങളുടെ Update Channelil ജോയിൻ ചെയ്യണം...!**",
+            text="**Please Join My Channel to use this Bot! ⚠️**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -40,7 +40,7 @@ async def handle_force_sub(bot, cmd):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+            text="Something went Wrong. Contact my [Support Group](https://t.me/jns_fc_bots).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
