@@ -22,7 +22,7 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [JNS Files Store Bot](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -32,31 +32,31 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍ **Developer:** @AbirHasan2005
 
-👨‍💻 **Editing:** @Mrk_YT
+👨‍💻 **Editing:** @JNS_BOTS
 
-📺 **Support:** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
+📺 **Movies:** [FC™](https://t.me/FCfilmcornercc)
 
-🗣️ **Any Doubt:** @Mo_Tech_Group
+🗣️ **Any Doubt:** @JNS_FC_BOTS
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Mo_Tech_YT)
+📢 **Updates Channel:** [ＪƝ⟆ ᗷ〇Ƭ⟆](https://t.me/JNS_BOTS)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍ **Developer:** @AbirHasan2005
 
-💻 **Developer Details:** [Clcik Here](https://github.com/MoTechYT/MT-FilesStoreBot/blob/main/README.md)
+💻 **Developer Details:** [JNS](https://t.me/jintons
 
-👨‍💻 **Editing:** @Mrk_YT
+👨‍💻 **Editing:** @JNS_BOTS
 
-🗣️ **Any Doubt:** @Mo_Tech_Group
+🗣️ **Any Doubt:** @JNS_FC_BOTS
 
-📺 **Support :** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
+📺  **Movies:** [FC™](https://t.me/FCfilmcornerfc)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Mo_Tech_YT)
+📢 **Updates Channel:** [ＪƝ⟆ ᗷ〇Ƭ⟆](https://t.me/JNS_BOTS)
 
 Donate Now (coming soon)
 """
 	HOME_TEXT = """
-**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **MT FileStoreBot**.
+**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **JNS FileStore Bot**.
 
 **Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button**.
 """
